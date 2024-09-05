@@ -9,7 +9,7 @@ model = load_model('fashion_CNN_new.h5')
 
 # Define class labels for Fashion MNIST dataset
 class_labels = [
-    'T-shirt/top', 'Trouser', 'Pullover', 'Dress', 'Coat', 'Sandal', 'Shirt', 'Sneaker', 'Bag', 'Ankle boot'
+    'T-shirt/top', 'Trouser', 'Bag', 'Dress', 'Coat', 'Sandal', 'Shirt', 'Sneaker', 'Pullover', 'Ankle boot'
 ]
 
 # Function to preprocess uploaded image
